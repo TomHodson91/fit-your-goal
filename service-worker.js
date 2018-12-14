@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%7BTomHodson91%7D.github.io/%7Bfit-your-goal%7D/precache-manifest.85d604520f8b4b5984657346442437cc.js"
+  "/fit-your-goal/precache-manifest.b2667ff93b2d93071216fb44fc88e85e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%7BTomHodson91%7D.github.io/%7Bfit-your-goal%7D/index.html", {
+workbox.routing.registerNavigationRoute("/fit-your-goal/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
